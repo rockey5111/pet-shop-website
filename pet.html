@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Google_page</title>
+  <link rel="stylesheet" href="css/pet.css">
+</head>
+<body>
+  <div id="container">
+    <h1 class="heading">Animals bazar</h1>
+    <p><small>your pet. your store</small></p>
+    <nav id="header">
+     <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">about us</a></li>
+      <li><a href="#">adobt a pet</a></li>
+      <li><a href="#">catagries</a></li>
+      <li><a href="#">contact us</a></li>
+    </ul>
+  </nav>
+  <form action="">
+       <input type="text" name="" placeholder="search..">
+  </form>
+ </div>
+ <script>
+   var images=[ "cats.jpg",
+                "pet1.jpg",
+                "pet2.jpg",
+                "pet4.jpg",
+                "pet5.jpg",
+                "pet6.jpg",
+                "pet7.jpg",
+                "pet8.jpg",
+                "pet11.jpg" ];
+    var i=0;
+    function slides(){
+      document.getElementById("slideimage") .src = images[i];
+       if(i<(images.length-1)) //4<4
+          i++;
+          else
+          i=0;
+    }
+    setInterval(slides, 2000)
+ </script>
+ <div id="slideshow">
+    <img src="cats.jpg" alt="photo" id="slideimage">
+ </div>
+ <div class="section">
+   <h1>about us</h1>
+   <p id="paragraph">At <b>animals bazar</b> we understand that your pet is a part of the family,<br> because we’re pet parents too. At our stores you’ll find a great selection<br> of pet food, treats, toys and accessories,all at competitive prices.You’ll<br> find our stores in local communities across Canada and the north-<br>eastern United States.Across all our stores,you’ll find friendly Pet Experts<br> trained in pet care and nutrition through the University of California Davis <br>Extension School.We pride ourselves on being Pet Experts and we want<br> to use our knowledge and experience to help you find the right <br>nutrition and other solutions for your pets.</p>
+
+   <div class="nature">
+               <img src="pet3.jpg" alt="photo 1" class="nature-photo nature-photo-p1"><br>
+               <img src="pet9.jpg" alt="photo 2" class="nature-photo nature-photo-p2"><br>
+               <img src="pet10.jpg" alt="photo 3" class="nature-photo nature-photo-p3">
+    </div>
+</div>
+
+<section class="section_tours">
+         <h1 class="heading1">Catagries of pet animals</h1>
+    <div class="row2">
+           <div class="col-1-of-2">
+            <div class="card">
+              <div class="card__side card__side-front">
+                <div class="card__picture card card__picture-1">
+                </div>
+                <div class="card__heading">
+                     German shepherd
+                </div>
+                <div class="card__details">
+                      <ul>
+                        <li>Available</li>
+                        <li>Age 0 to 6 months</li>
+
+                      </ul>
+                </div>
+              </div>
+                <div class="card__side card__side-back card__side-back-1">
+                  <div class="card__cta">
+                      <div class="card__price-box">
+                        <p class="card__price-only">only</p>
+                        <p class="card__price-value">$299</p>
+                      </div>
+                        <a href="#" class="btn btn-white">Buy now</a>
+                  </div>
+                </div>
+             </div>
+           </div>
+          <div class="row2">
+         <div class="col-1-of-2">
+          <div class="card">
+            <div class="card__side card__side-front">
+              <div class="card__picture card card__picture-2">
+              </div>
+              <div class="card__heading">
+                   Golden Retriever
+              </div>
+              <div class="card__details">
+                    <ul>
+                      <li>Available</li>
+                      <li>Age 0 to 1 months</li>
+
+                    </ul>
+              </div>
+            </div>
+              <div class="card__side card__side-back card__side-back-2">
+                <div class="card__cta">
+                    <div class="card__price-box">
+                      <p class="card__price-only">only</p>
+                      <p class="card__price-value">$199</p>
+                    </div>
+                      <a href="#" class="btn btn-white">Buy now</a>
+                </div>
+              </div>
+           </div>
+         </div>
+        <div class="row2">
+       <div class="col-1-of-2">
+        <div class="card">
+          <div class="card__side card__side-front">
+            <div class="card__picture card card__picture-3">
+            </div>
+            <div class="card__heading">
+                 Persian cats
+            </div>
+            <div class="card__details">
+                  <ul>
+                    <li>Available</li>
+                    <li>Age 0 to 3 months</li>
+
+                  </ul>
+            </div>
+          </div>
+            <div class="card__side card__side-back card__side-back-3">
+              <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">only</p>
+                    <p class="card__price-value">$85</p>
+                  </div>
+                    <a href="#" class="btn btn-white">Buy now</a>
+              </div>
+            </div>
+         </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+     <nav class="clear_fix">
+       <ul>
+         <li><a href="">Advertising</a></li>
+         <li><a href="">Business</a></li>
+         <li><a href="">Product</a></li>
+      </ul>
+      <ul class="right_links">
+         <li><a href="">Privacy</a></li>
+         <li><a href="">Terms</a></li>
+         <li><a href="">support</a></li>
+         <li><a href="">Follow Us</a></li>
+       </ul>
+     </nav>
+   </footer>
+
+</body>
+</html>
